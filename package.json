@@ -2,7 +2,7 @@
   "name": "tb_googlebooksearch",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/trb5160/tb_googlebooksearch/issues"
   },
-  "homepage": "https://github.com/trb5160/tb_googlebooksearch#readme"
+  "homepage": "https://github.com/trb5160/tb_googlebooksearch#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12"
+  }
 }
