@@ -28,5 +28,5 @@
   App link: https://morning-falls-75925.herokuapp.com/
   Github Link: https://github.com/trb5160/tb_googlebooksearch
 
-  ![Alt text]./public/appscreenshot.png)
+  ![Alt text](/public/appscreenshot.png)
   
